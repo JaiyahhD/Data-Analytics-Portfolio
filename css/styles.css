@@ -1,0 +1,76 @@
+/* Custom Colors */
+:root {
+    --background-dark: #121212; /* Deep Black/Dark Gray */
+    --text-light: #f0f0f0; /* Off-White/Light Gray for main text */
+    --accent-rosegold: #B76E79; /* Soft Rose Gold/Champagne */
+    --accent-pink: #FF69B4; /* Brighter Pink for hover effects */
+    --content-bg: #1e1e1e; /* Slightly lighter box for contrast */
+}
+
+/* Base Body and Dark Mode Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font stack */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-dark); /* Dark background */
+    color: var(--text-light); /* Light text */
+}
+
+/* Centered Content Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--content-bg); /* Darker gray content box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft, subtle shadow */
+    border-radius: 12px;
+    border-top: 3px solid var(--accent-rosegold); /* Rose Gold accent border */
+}
+
+/* Styling for Main Title */
+h1 {
+    text-align: center;
+    color: var(--accent-rosegold);
+    border-bottom: 2px solid var(--accent-rosegold);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* Styling for Section Headings */
+h2 {
+    color: var(--accent-rosegold); 
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+/* Styling for Links and Contact Info */
+a {
+    color: var(--accent-rosegold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-pink); /* Pink hover effect */
+    text-decoration: underline;
+}
+
+/* Styling the List of Projects */
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+li {
+    background-color: #2b2b2b; /* Slightly lighter background for list items */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid var(--accent-rosegold); /* Rose Gold indicator */
+}
+
+/* Styling for the horizontal rule */
+hr {
+    border-top: 1px solid #333;
+}
